@@ -23,6 +23,7 @@ def main():
         print("Error creating students table: ", e)
         return
     
+    print("Creation of students database and table was successful")
     connection.close()
 
 # Creates connection to Postgres
